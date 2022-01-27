@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="calc.css">
+
+    <title>Calculator!</title>
+  </head>
+  <body>
+      <div class="container">
+    <div class="  row">
+        <div class="col-md-9 col-sm-2 cal-1">
+            <h1 class="text-center">Calculator</h1>
+            <section class="" id="calc">
+                
+                <input type="text" class="calc-screen bg-dark text-white" disabled>
+                
+                <div class=" calc-keys text-justify">
+                <div>
+                    <button class="col-2" value="(">(</button>
+                    <button class="col-2" value=")">)</button>
+                    <button class="col-2 bg-danger operator" value="C">C</button>
+                    <button class="col-2 bg-info operator" value="+">+</button>
+                </div>
+                <div>
+                    <button class="col-2" value="7">7</button>
+                    <button class="col-2" value="8">8</button>
+                    <button class="col-2" value="9">9</button>
+                    <button class="col-2 bg-info operator" value="-">-</button>
+                </div>
+                <div>
+                    <button class="col-2" value="4">4</button>
+                    <button class="col-2" value="5">5</button>
+                    <button class="col-2" value="6">6</button>
+                    <button class="col-2 bg-info operator" value="*">*</button>
+                </div>
+                <div>
+                    <button class="col-2" value="1">1</button>
+                    <button class="col-2" value="2">2</button>
+                    <button class="col-2" value="3">3</button>
+                    <button class="col-2 bg-info operator" value="/">/</button>
+                </div>
+                <div>
+                    <button class="col-2" value="0">0</button>
+                    <button class="col-2 bg-info operator" value="%">%</button>
+                    <button class="col-2 bg-info operator" value="**">**</sup></button>
+                    <button class="col-2 bg-warning operator" value="=">=</button>
+                </div>
+                </div>
+
+            </section>
+        </div>
+    
+        <div class="col-md-3 col-sm-1 bg-warning ">
+            <h3>History</h3>
+            <div id="history"></div>
+        </div>
+    </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="validate.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
